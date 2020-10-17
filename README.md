@@ -69,10 +69,10 @@ website.
 ---
 
 The machine learning model was trained on a dataset downloaded from 
-[kaggle/wordsforthewise](http://www.kaggle.com/wordsforthewise/lending-club);
-it can be found in the 'data' directory of this repository. The dataset 
-consisted of all loans issued between the years 2007 and 2018. The raw dataset 
-was of size 2.5 GB, and consisted of 2.2 million rows and 151 features. 
+[kaggle/wordsforthewise](http://www.kaggle.com/wordsforthewise/lending-club).
+The dataset consisted of all loans issued between the years 2007 and 2018. 
+The raw dataset was of size 2.5 GB, and consisted of 2.2 million rows and 
+151 features. 
 
 The goal of the machine learning model is to classify 
 a given loan instance as either 'Fully Paid' or 'Charged Off'.
