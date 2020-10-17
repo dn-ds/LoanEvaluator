@@ -1,7 +1,7 @@
 # LoanEvaluator
 ---
 
-For quick summary of the project, see these
+For a quick summary of the project, see these
 [slides](slides.pdf).
 
 ### What is LoanEvaluator?
