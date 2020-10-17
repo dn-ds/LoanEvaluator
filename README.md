@@ -127,7 +127,7 @@ L1 regularization is selected as the final model, and evaluated on the
 test set, achieving an ROC AUC score of 0.71.
     - The Logistic Regression model has the added advantage that it is 
 naturally well-calibrated in terms of output probabilities.
-    - This notebook was run on an AWS EC2 c5.2xlarge instance.
+    - This notebook was run on an AWS EC2 c5.9xlarge instance.
 
 **Main tools and packages used for the project:** 
 [Jupyter Notebook](http://jupyter.org), 
