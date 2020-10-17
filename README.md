@@ -122,11 +122,11 @@ Linear Discriminant Analysis, and K-Nearest Neighbors.
     - Overfitting is estimated
 by evaluating the four models on the training dataset, with and without 
 cross-validation. Top models are selected, and their hyperparameter are
-tuned using a grid search. The best performing model is selected
-as the final model (Logistic Regression, with L1 regularization), and 
-evaluated on the test set, achieving an ROC AUC score of 0.71.
-    - The Regression model has the added advantage that it is naturally 
-well-calibrated in terms of output probabilities.
+tuned using a grid search. The Logistic Regression model with 
+L1 regularization is selected as the final model, and evaluated on the 
+test set, achieving an ROC AUC score of 0.71.
+    - The Logistic Regression model has the added advantage that it is 
+naturally well-calibrated in terms of output probabilities.
     - This notebook was run on an AWS EC2 c5.2xlarge instance.
 
 **Main tools and packages used for the project:** 
