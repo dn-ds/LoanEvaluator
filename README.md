@@ -107,7 +107,7 @@ better than some existing features.
 *interest rate*, *term*, *borrower's FICO score*, and 
 *borrower's debt payment-to-income ratio*.
 
-3. **Selecting and training a machine learning model:**
+3. **Training machine learning models:**
 The primary purpose of this notebook is to select a machine learning model. 
     - The dataset is imbalanced: approximately 80% of the data belongs 
 to the negative class ('Fully Paid'), and 20% belongs to the positive class 
