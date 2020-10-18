@@ -123,7 +123,7 @@ Linear Discriminant Analysis, and K-Nearest Neighbors.
 dataset, with and without cross-validation. 
     - Models are ranked by cross-validation score. Top models are selected, and 
 their hyperparameter are tuned using a grid search. 
-    - The best model (Logistic Regression, with L1 regularization) is selected 
+    - The Logistic Regression model with L2 regularization is selected 
 as the final model, and evaluated on the test set, achieving an ROC AUC score 
 of 0.71.
     - The Logistic Regression model has the added advantage that it is 
