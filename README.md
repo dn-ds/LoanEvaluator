@@ -18,7 +18,7 @@ that a given LendingClub loan will be charged-off.
 
 If you are considering funding a LendingClub loan, fill in the
 loan details in the fields provided on the landing page, and click
-'Make Prediction'. You will be shown the probability that 
+`Make Prediction`. You will be shown the probability that 
 the loan will be charged-off.
 
 <img src='images/landing_page.png' width='900px' height='600px'>
@@ -75,7 +75,7 @@ The raw dataset was of size 2.5 GB, and consisted of 2.2 million rows and
 151 features. 
 
 The goal of the machine learning model is to classify 
-a given loan instance as either 'Fully Paid' or 'Charged Off'.
+a given loan instance as either `Fully Paid` or `Charged Off`.
 
 The work was completed in the following three Jupyter Notebooks, all
 included in this repository.
@@ -110,8 +110,8 @@ better than some existing features.
 3. **Training machine learning models:**
 The primary purpose of this notebook is to select a machine learning model. 
     - The dataset is imbalanced: approximately 80% of the data belongs 
-to the negative class ('Fully Paid'), and 20% belongs to the positive class 
-('Charged Off'). 
+to the negative class (`Fully Paid`), and 20% belongs to the positive class 
+(`Charged Off`). 
     - Two metrics are used for evaluation:
 Precision-Recall Area Under the Curve and Receiver Operating 
 Characteristic Area Under the Curve. 
